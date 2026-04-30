@@ -104,10 +104,10 @@ npm install
 npm run dev
 ```
 
-The frontend will run on `http://localhost:5173`
+The frontend will run on `https://customer-dashboard-navy-tau.vercel.app/`
 
 #### 4. Access the Application
-Open your browser and go to: `http://localhost:5173`
+Open your browser and go to: `https://customer-dashboard-navy-tau.vercel.app/`
 
 ### Environment Variables
 
@@ -115,7 +115,7 @@ Open your browser and go to: `http://localhost:5173`
 ```
 PORT=5000
 NODE_ENV=development
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=https://customer-dashboard-navy-tau.vercel.app/
 ```
 
 **Frontend (.env):**
