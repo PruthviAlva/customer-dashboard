@@ -2,6 +2,14 @@
 
 A simple, full-stack web application for managing customer information with a clean, modern UI.
 
+## 🌐 Live Demo
+
+- **Frontend**: https://customer-dashboard-navy-tau.vercel.app/
+- **Backend API**: https://customer-dashboard-6ztr.onrender.com/
+- **GitHub Repository**: https://github.com/PruthviAlva/customer-dashboard
+
+> Try it live! Add a customer, view the list, and delete customers in real-time.
+
 ## 📋 Project Overview
 
 Customer Dashboard is a MERN (MongoDB/In-Memory, Express, React, Node.js) stack application that allows users to:
@@ -270,7 +278,7 @@ GET /health
    - Click Deploy button
    - Vercel will build and deploy automatically
 
-**Frontend Live URL**: `https://your-project.vercel.app`
+**✅ Frontend Live URL**: https://customer-dashboard-navy-tau.vercel.app/
 
 ### Backend Deployment (Render)
 
@@ -292,17 +300,17 @@ GET /health
    - Add the following in Render dashboard:
      - `PORT=5000`
      - `NODE_ENV=production`
-     - `CORS_ORIGIN=https://your-vercel-url.vercel.app`
+     - `CORS_ORIGIN=https://customer-dashboard-navy-tau.vercel.app`
 
 5. **Deploy**
    - Render will automatically deploy from your GitHub repository
 
-**Backend Live URL**: `https://your-service-name.onrender.com`
+**✅ Backend Live URL**: https://customer-dashboard-6ztr.onrender.com/
 
 ### Update Frontend for Production
 After deploying backend to Render, update the frontend `.env`:
 ```
-VITE_API_URL=https://your-service-name.onrender.com
+VITE_API_URL=https://customer-dashboard-6ztr.onrender.com
 ```
 
 Then redeploy frontend on Vercel.
